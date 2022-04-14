@@ -10,7 +10,21 @@
 	<p>This example requires you to enter commands in your browser's JavaScript console (see <a href="https://developer.mozila.org/ja/docs/Learn/JavaScript/Objects/Basics">What are browser developer tools</a>) for more information).</p>
 	<script>
 		// 空のオブジェクトを作成
-		const person = {}
+		// const person = {}
+
+		// オブジェクトにデータを追加
+		const person = {
+			name: ['torish', '14'],
+			age: 25,
+			gender: 'male',
+			interests: ['hunting', 'fishing'],
+			bio: function() {
+				alert(this.name[0] + ' ' + this.name[1] + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.')
+			},
+			greeting: function () {
+				alert('Hi! I\'m ' + this.name[0] + '!')
+			}
+		}
 	</script>
 </body>
 </html>
