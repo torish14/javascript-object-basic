@@ -70,4 +70,5 @@
 
 ## 参考サイト
 
-[JavaScript オブジェクト入門 - MDN](https://developer.mozilla.org/ja/docs/Learn/JavaScript/Objects)
+- [JavaScript オブジェクト入門 - MDN](https://developer.mozilla.org/ja/docs/Learn/JavaScript/Objects)
+- [MDN JavaScript OOJS - GitHub](https://github.com/mdn/learning-area/tree/main/javascript/oojs)
